@@ -1,0 +1,11 @@
+# Direct dependencies (from the imports in app.py, database.py and forms.py).
+# Verified on Python 3.13 with these exact versions.
+Flask==3.1.3
+Flask-Session==0.8.0
+Flask-WTF==1.3.0
+WTForms==3.2.2
+Werkzeug==3.1.9
+matplotlib==3.11.2
+numpy==2.5.4
+# Lets `flask run` pick up FLASK_APP / FLASK_DEBUG from .flaskenv
+python-dotenv==1.2.4
